@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(146, 146, 146, 0.644);
+}
+.weathercontainer{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(1, 11, 56);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(39, 39, 41, 0.295), -5px -5px 10px rgba(33, 33, 34, 0.295);
+    padding: 1%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.h1{
+    color: rgb(170, 140, 8);
+}
+.countryentry{
+    color: beige;
+    font-weight: bold;
+}
+.submitbtn{
+    height: 30px;
+    background-color: rgb(33, 102, 33);
+    border: none;
+    margin-left: 2%;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px 6px 0px 6px;
+}
+.countryinput{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1%;
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(226, 226, 226);
+    border-image: none;
+}
+.countryinput::placeholder{
+    padding-left: 5px;
+}
+.resetbtn{
+    height: 30px;
+    background-color: red;
+    border: none;
+    margin-left: 2%;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+}
+.h2{
+    color: rgb(181, 181, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.datapara{
+    color: rgb(14, 21, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.weatherimg{
+    width: 70px;
+}
+.unitchangebtn{
+    background-color: rgb(34, 34, 128);
+    color: rgb(211, 210, 210);
+    height: 30px;
+    width: 35%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.errormsg{
+    margin-top: 2%;
+    color: rgb(148, 19, 19);
+}
